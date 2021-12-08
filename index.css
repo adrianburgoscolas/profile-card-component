@@ -58,7 +58,7 @@ header {
 }
 .country {
     margin-top: 7px;
-    color:hsl(0, 0%, 59%);
+    color:hsl(227, 10%, 46%);
 }
 .name, .stats div {
     font-size: 18px;
@@ -67,12 +67,12 @@ header {
 }
 .age {
     font-size: 18px;
-    color:hsl(0, 0%, 59%);
+    color:hsl(227, 10%, 46%);
 }
 .stats span {
     font-size: 10px;
     letter-spacing: 2px;
-    color:hsl(0, 0%, 59%);
+    color:hsl(227, 10%, 46%);
 }
 .stats div {
     text-transform: uppercase;
@@ -88,7 +88,7 @@ header {
     color: hsl(228, 45%, 44%);
 }
 ul {
-    border-top: 1px solid lightgray;
+    border-top: 1px solid rgb(223, 223, 223);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
