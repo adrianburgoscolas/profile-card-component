@@ -1,0 +1,116 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -580px, 170px;
+    background-position-y: -500px,350px;
+    background-size: 800px 800px, 760px 760px;
+}
+.card {
+    position: relative;
+    text-align: center;
+    
+}
+main {
+    background-color: white;
+    height: 375px;
+    width: 326px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+header {
+    position: relative;
+    height: 285px;
+}
+.user-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.user-img {
+    /* flex: 0 0 0; */
+    display: block;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.pattern {
+    display: flex;
+    justify-content: center;
+}
+.pattern img {
+    display: block;
+}
+.profile {
+    margin-top: 72px;
+    /* z-index: ; */
+}
+.country {
+    margin-top: 7px;
+    color:hsl(0, 0%, 59%);
+}
+.name, .stats div {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.age {
+    font-size: 18px;
+    color:hsl(0, 0%, 59%);
+}
+.stats span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color:hsl(0, 0%, 59%);
+}
+.stats div {
+    text-transform: uppercase;
+}
+.attribution { 
+    width: 100%;
+    position: absolute;
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 30px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+ul {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 89px;
+    margin-left: -10px;
+}
+li {
+    margin: 0;
+    list-style: none;
+}
+h1 {
+    margin: 0;
+}
+@media only screen and (min-width: 728px){
+    body {
+        background-position-x: -290px, 670px;
+        background-position-y: -500px,370px;
+        background-size: 978px 978px, 978px 978px;
+    }
+    main {
+        width: 350px;
+    }
+}
