@@ -102,7 +102,9 @@ li {
     list-style: none;
 }
 h1 {
+    display: inline;
     margin: 0;
+    padding: 0;
 }
 @media only screen and (min-width: 728px){
     body {
